@@ -1,0 +1,17 @@
+name: nopickup
+main: fr.darkvodou.nopickup.nopickup
+version: 0.0.1
+api-version: 1.14
+author: 'nopickup'
+description: 'Do not pick this items '
+website: www.lumen.ovh
+commands:
+  pickup:
+    description: "Specify a whitelist item to pick"
+    usage: /<command> <itemlist>
+  nopickup:
+    description: "Specify a blacklist item to pick"
+    usage: /<command> <itemlist>
+  pickupreset:
+    description: "Reset list item to pick"
+    usage: /<command>

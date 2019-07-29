@@ -1,0 +1,5 @@
+# nopickup config
+
+# Options
+default-max-items-list-on-command: 10
+default-max-items-list: 50
